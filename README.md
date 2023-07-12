@@ -1,3 +1,7 @@
+Whenever you start working:
+1. in your terminal
+2. git pull origin main
+
 To make changes:
 
 1. change the code in some way
