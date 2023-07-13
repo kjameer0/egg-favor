@@ -16,6 +16,19 @@ function helloName(name) {
 
 
 //https://the-winter.github.io/codingjs/exercise.html?name=makeAbba&title=String-1
+/*
+String-1 -- makeAbba
+Given two strings, a and b, return the result of putting them together in the order abba, e.g. "Hi" and "Bye" returns "HiByeByeHi".
+
+Given a and b, return abba
+Concatenate a + b + b + a
+*/
+
+function makeAbba(a, b) {
+    return a + b + b + a;
+}
+
+//There's probably a simpler way to do this though? Idk
 
 
 
