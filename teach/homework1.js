@@ -33,5 +33,15 @@ function makeAbba(a, b) {
 
 
 //https://the-winter.github.io/codingjs/exercise.html?name=makeTags&title=String-1
+/*
+String-1 -- makeTags
+The web is built with HTML strings like "<i>Yay</i>" which draws Yay as italic text. In this example, the "i" tag makes <i> and </i> which surround the word "Yay". 
+Given tag and word strings, create the HTML string with tags around the word, e.g. "<i>Yay</i>".
 
+Given tag and word, return <tag>word</tag>
+Concatenate '<' + tag '>' + word + '</' + tag + '>'
+*/
 
+ function makeTags(tag, word) {
+    return '<' + tag + '>' + word + '</' + tag + '>';
+ }
